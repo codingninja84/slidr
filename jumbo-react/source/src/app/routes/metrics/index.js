@@ -37,7 +37,7 @@ class Matrix extends React.Component {
                 <div className="animated slideInUpTiny animation-duration-3">
                     <ContainerHeader match={this.props.match} title={
                         <IntlMessages id="sidebar.metrics"/>}/>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-lg-3 col-sm-6 col-12">
                             <ChartCard styleName="bg-secondary text-white">
                                 <div className="chart-title">
@@ -75,16 +75,16 @@ class Matrix extends React.Component {
                         <div className="col-lg-3 col-sm-6 col-12">
                             <ChartCard styleName="bg-teal lighten-1 text-white">
                                 <div className="chart-title">
-                                    <h2>236</h2>
-                                    <p>New Visits this month</p>
+                                    <h2>+7</h2>
+                                    <p>Hours Over Last Week</p>
                                 </div>
 
 
                                 <ResponsiveContainer width="100%" height={110}>
                                     <LineChart data={data2}>
                                         <Line type="monotone" dataKey="uv" stroke="#ffffff" activeDot={{r: 8}}/>
-                                        <Line type="monotone" dataKey="pv" stroke="#ffffff"/>
-                                        <Line type="monotone" dataKey="amt" stroke="#ffffff"/>
+                                        <Line type="monotone" dataKey="pv" stroke="#fff"/>
+                                        <Tooltip/>
                                     </LineChart>
                                 </ResponsiveContainer>
 
@@ -105,9 +105,9 @@ class Matrix extends React.Component {
                                 </ResponsiveContainer>
                             </ChartCard>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-lg-3 col-sm-6 col-12">
                             <ReportBox
                                 styleName="bg-teal accent-4 text-white"
@@ -174,9 +174,9 @@ class Matrix extends React.Component {
                                 </PieChart>
                             </ReportBox>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-xl-3 col-sm-6 col-12">
                             <div className="card shadow text-center">
                                 <CardHeader title="View" rightItemStyle="badge badge-primary" updatedAt="Monthly"/>
@@ -250,17 +250,22 @@ class Matrix extends React.Component {
                             </div>
                         </div>
 
-                    </div>
+                    </div> */}
 
                     <div className="row">
                         <div className="col-xl-3 col-lg-6 col-md-3 col-sm-6 col-12">
                             <div className="jr-card">
                                 <ResponsiveContainer width="100%" height={160}>
                                     <RadarChart outerRadius={80} data={radarChartData}>
-                                        <Radar name="Mike" dataKey="A" stroke="#3367d6" fill="#3367d6"
+                                        <Radar name="Tasks" dataKey="A"
+                                           stroke="#3367d6" fill="#3367d6"
                                                fillOpacity={0.6}/>
+                                               <Radar name="Tasks" dataKey="subject"
+                                                  stroke="#3367d6" fill="#3367d6"
+                                                      fillOpacity={0.6}/>
                                         <PolarGrid/>
                                         <PolarRadiusAxis/>
+                                        <Tooltip/>
                                     </RadarChart>
                                 </ResponsiveContainer>
                             </div>
@@ -268,28 +273,43 @@ class Matrix extends React.Component {
 
                         <div className="col-xl-3 col-lg-6 col-md-3 col-sm-6 col-12">
                             <div className="jr-card">
+                              <div className="chart-title">
+                                  <h2>Yearly Total</h2>
+                                  <p>Hours Per Month</p>
+                              </div>
                                 <ResponsiveContainer width="100%" height={160}>
                                     <PieChart>
                                         <Pie dataKey="amt" data={pieChartData} cx="50%" cy="50%" innerRadius={40}
                                              outerRadius={60}
-                                             fill="#ffc658"/>
+                                             fill="#3574f2"/>
                                         <Tooltip/>
                                     </PieChart>
                                 </ResponsiveContainer>
                             </div>
                         </div>
 
-                        <div className="col-xl-3 col-lg-6 col-md-3 col-sm-6 col-12">
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="jr-card">
-                                <ResponsiveContainer width="100%" height={160}>
-                                    <LineChart data={data1}>
-                                        <Line type="monotone" dataKey="uv" stroke="#3367d6" activeDot={{r: 8}}/>
-                                        <Line type="monotone" dataKey="pv" stroke="#59AA2B" activeDot={{r: 8}}/>
-                                    </LineChart>
-                                </ResponsiveContainer>
+                              <div className="chart-title">
+                                  <h2>+7</h2>
+                                  <p>Hours Over Last Week</p>
+                              </div>
+                                  <ResponsiveContainer width="100%" height={160}>
+                                      <LineChart data={data2}>
+                                        <div className="chart-title">
+                                            <h2>+7</h2>
+                                            <p>Hours Over Last Week</p>
+                                        </div>
+                                          <Line type="monotone" dataKey="cw" stroke="#3367d6" activeDot={{r: 8}}/>
+                                          <Line type="monotone" dataKey="pv" stroke="#59AA2B" activeDot={{r: 7}}/>
+                                          <Tooltip/>
+                                          <XAxis dataKey="name" />
+                                      </LineChart>
+                                  </ResponsiveContainer>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-6 col-md-3 col-sm-6 col-12">
+                      </div>
+                        {/* <div className="col-xl-3 col-lg-6 col-md-3 col-sm-6 col-12">
                             <div className="jr-card bg-primary text-white text-center py-5">
                                 <div className="mb-3">
                                     <img src="http://via.placeholder.com/54x52" alt="image"/>
@@ -297,9 +317,9 @@ class Matrix extends React.Component {
                                 <h5 className="text-uppercase mb-0">upgrade today</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-xl-3 col-lg-6 col-md-3 col-sm-6 col-12">
                             <InfoCard data={cardData} styleName="bg-secondary"/>
                         </div>
@@ -312,7 +332,7 @@ class Matrix extends React.Component {
                         <div className="col-xl-3 col-lg-6 col-md-3 col-sm-6 col-12">
                             <InfoCard data={cardData3} styleName="bg-red darken-1"/>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

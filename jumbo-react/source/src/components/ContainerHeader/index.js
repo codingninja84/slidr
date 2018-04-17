@@ -23,7 +23,7 @@ const ContainerHeader = ({title, match}) => {
     const subPath = path.split('/');
     return (
         <div className="page-heading d-sm-flex justify-content-sm-between align-items-sm-center">
-            <h2 className="title mb-3 mb-sm-0">Slidr - An AP Tool</h2>
+            <h2 className="title mb-3 mb-sm-0">AP Workspace - Build It Quickly</h2>
 
             <Breadcrumb className="mb-0" tag="nav">
                 {subPath.map((sub, index) => {

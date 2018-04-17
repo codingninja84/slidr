@@ -50,7 +50,7 @@ class SignIn extends React.Component {
 
                     <div className="app-logo-content d-flex align-items-center justify-content-center">
                         <Link className="logo-lg" to="/" title="Jambo">
-                            <img src="http://via.placeholder.com/177x65" alt="jambo" title="jambo"/>
+                            <img src="../assets/images/ap-logo-white.png" alt="jambo" title="jambo"/>
                         </Link>
                     </div>
 
@@ -101,40 +101,10 @@ class SignIn extends React.Component {
                                                 <IconButton className="icon"
                                                             onClick={() => {
                                                                 this.props.showAuthLoader();
-                                                                this.props.userFacebookSignIn();
-                                                            }}>
-                                                    <i className="zmdi zmdi-facebook"/>
-                                                </IconButton>
-                                            </li>
-
-                                            <li>
-                                                <IconButton className="icon"
-                                                            onClick={() => {
-                                                                this.props.showAuthLoader();
-                                                                this.props.userTwitterSignIn();
-                                                            }}>
-                                                    <i className="zmdi zmdi-twitter"/>
-                                                </IconButton>
-                                            </li>
-
-                                            <li>
-                                                <IconButton className="icon"
-                                                            onClick={() => {
-                                                                this.props.showAuthLoader();
                                                                 this.props.userGoogleSignIn();
 
                                                             }}>
                                                     <i className="zmdi zmdi-google-plus"/>
-                                                </IconButton>
-                                            </li>
-
-                                            <li>
-                                                <IconButton className="icon"
-                                                            onClick={() => {
-                                                                this.props.showAuthLoader();
-                                                                this.props.userGithubSignIn();
-                                                            }}>
-                                                    <i className="zmdi zmdi-github"/>
                                                 </IconButton>
                                             </li>
                                         </ul>

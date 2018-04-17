@@ -68,23 +68,22 @@ class SidenavContent extends Component {
                     <ul className="sub-menu">
                         <li>
                             <NavLink className="prepend-icon" to="/app/dashboard/default">
-                                <span className="nav-text"><IntlMessages id="sidebar.dashboard.default"/></span>
+                                <span className="nav-text">Slidr</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink className="prepend-icon" to="/app/dashboard/eCommerce">
-                                <span className="nav-text text-transform-none"><IntlMessages
-                                    id="sidebar.dashboard.ecommerce"/></span>
+                                <span className="nav-text text-transform-none">Asana Taskr</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink className="prepend-icon" to="/app/dashboard/news">
-                                <span className="nav-text"><IntlMessages id="sidebar.dashboard.news"/></span>
+                                <span className="nav-text">AP Alerts</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink className="prepend-icon" to="/app/dashboard/intranet">
-                                <span className="nav-text"><IntlMessages id="sidebar.dashboard.intranet"/></span>
+                                <span className="nav-text">GTM Central</span>
                             </NavLink>
                         </li>
                     </ul>
@@ -94,190 +93,102 @@ class SidenavContent extends Component {
                 <li className="ui_tooltip menu">
                     <Button className="void" href="javascript:void(0)">
                         <i className="zmdi zmdi-folder zmdi-hc-fw"/>
-                        <span className="nav-text"><IntlMessages id="sidebar.components"/></span>
+                        <span className="nav-text">Client Access</span>
                     </Button>
 
                     <ul className="sub-menu">
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/alerts">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.alerts"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/appbar">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.appbar"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/auto-complete">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.autocomplete"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/avatars">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.avatars"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/badges">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.badge"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/bottom-navigation">
-                                <span className="nav-text"><IntlMessages
-                                    id="sidebar.components.bottomNavigation"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/breadcrumbs">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.breadcrumbs"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/buttons">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.buttons"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/button-group">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.buttonGroup"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/cards">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.cards"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/carousel">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.carousel"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/chips">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.chips"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/color-picker">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.colorPicker"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/dialogs">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.dialogs"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/dividers">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.dividers"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/expansion-panel">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.expansionPanel"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/drawer">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.drawer"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/grid-list">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.gridList"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/list">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.lists"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/menu-paper">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.menusPaper"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/pickers">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.pickers"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/popovers">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.popovers"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/progressbar">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.progress"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/selects">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.selects"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/selection">
-                                <span className="nav-text"><IntlMessages
-                                    id="sidebar.components.selectionControl"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/snackbar">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.snackbars"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/stepper">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.stepper"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/tables">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.tables"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/tabs">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.tabs"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/text-fields">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.textFields"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/tooltips">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.tooltips"/></span>
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink className="prepend-icon" to="/app/components/typography">
-                                <span className="nav-text"><IntlMessages id="sidebar.components.typography"/></span>
-                            </NavLink>
-                        </li>
+
+                      <li className="ui_tooltip menu">
+                          <Button className="void" href="javascript:void(0)">
+                              <i className="zmdi zmdi-folder zmdi-hc-fw"/>
+                              <span className="nav-text">Agentology</span>
+                          </Button>
+
+                          <ul className="sub-menu">
+                              <li>
+                                  <NavLink className="prepend-icon" to="">
+                                      <a href="https://tagmanager.google.com/#/container/accounts/128597786/containers/1589898/workspaces/232"><span className="nav-text">Tag Manager</span></a>
+                                  </NavLink>
+                              </li>
+                              <li>
+                                  <NavLink className="prepend-icon" to="">
+                                      <a href="https://analytics.google.com/analytics/web/#/embed/report-home/a68288037w105043589p109331408"><span className="nav-text">Google Analytics</span></a>
+                                  </NavLink>
+
+                              </li>
+                              <li>
+                                  <NavLink className="prepend-icon" to="">
+                                      <a href="https://optimize.google.com"><span className="nav-text">Optimize</span></a>
+                                  </NavLink>
+                              </li>
+                          </ul>
+                      </li>
+                      <li className="ui_tooltip menu">
+                          <Button className="void" href="javascript:void(0)">
+                              <i className="zmdi zmdi-folder zmdi-hc-fw"/>
+                              <span className="nav-text">TCAA</span>
+                          </Button>
+
+                          <ul className="sub-menu">
+                              <li>
+                                  <NavLink className="prepend-icon" to="">
+                                      <span className="nav-text">GTM</span>
+                                  </NavLink>
+                              </li>
+                              <li>
+                                  <NavLink className="prepend-icon" to="">
+                                      <span className="nav-text">Google Analytics</span>
+                                  </NavLink>
+                              </li>
+                              <li>
+                                  <NavLink className="prepend-icon" to="">
+                                      <span className="nav-text">Biq Query</span>
+                                  </NavLink>
+                              </li>
+                          </ul>
+                      </li>
+                      <li className="ui_tooltip menu">
+                          <Button className="void" href="javascript:void(0)">
+                              <i className="zmdi zmdi-folder zmdi-hc-fw"/>
+                              <span className="nav-text">Zendesk</span>
+                          </Button>
+
+                          <ul className="sub-menu">
+                              <li>
+                                  <NavLink className="prepend-icon" to="">
+                                      <span className="nav-text">GTM</span>
+                                  </NavLink>
+                              </li>
+                              <li>
+                                  <NavLink className="prepend-icon" to="">
+                                      <span className="nav-text">Google Analytics</span>
+                                  </NavLink>
+                              </li>
+                              <li>
+                                  <NavLink className="prepend-icon" to="/app/components/auto-complete">
+                                      <span className="nav-text">Data Studio</span>
+                                  </NavLink>
+                              </li>
+                          </ul>
+                      </li>
                     </ul>
                 </li>
 
                 <li className="menu no-arrow">
                     <NavLink to="/app/widgets">
                         <i className="zmdi zmdi-widgets zmdi-hc-fw"/>
-                        <span className="nav-text"><IntlMessages id="sidebar.widgets"/></span>
+                        <span className="nav-text">Career Blocks</span>
                     </NavLink>
                 </li>
 
                 <li className="menu no-arrow">
                     <NavLink to="/app/metrics">
                         <i className="zmdi zmdi-trending-up zmdi-hc-fw"/>
-                        <span className="nav-text"><IntlMessages id="sidebar.metrics"/></span>
+                        <span className="nav-text">Your Hours</span>
                     </NavLink>
                 </li>
 
-                <li className="nav-header"><IntlMessages id="sidebar.view"/></li>
+                {/* <li className="nav-header"><IntlMessages id="sidebar.view"/></li>
 
                 <li className="menu">
                     <Button href="javascript:void(0)">
@@ -326,7 +237,7 @@ class SidenavContent extends Component {
                                 <span className="nav-text"><IntlMessages id="sidebar.timeLine.zigzag"/></span>
                             </NavLink>
                         </li>*/}
-                    </ul>
+                    {/* </ul>
                 </li>
 
                 <li className="menu">
@@ -851,8 +762,8 @@ class SidenavContent extends Component {
                             <Button className="prepend-icon" href="javascript:void(0)">
                                 <span className="nav-text"><IntlMessages id="sidebar.menuLevels.level1"/></span>
                             </Button>
-                        </li>
-                        <li className="menu">
+                        </li> */}
+                        {/* <li className="menu">
                             <Button className="prepend-icon" href="javascript:void(0)">
                                 <span className="nav-text"><IntlMessages id="sidebar.menuLevels.level1"/></span>
                             </Button>
@@ -886,7 +797,7 @@ class SidenavContent extends Component {
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li> */}
 
             </ul>
         );

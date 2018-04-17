@@ -71,7 +71,7 @@ class Header extends React.Component {
                     </IconButton>
 
                     <Link className="app-logo" to="/">
-                        <img src="http://via.placeholder.com/177x65" alt="Jambo" title="Jambo"/>
+                        <img src="./../../assets/images/ap-logo-white-horz.png" alt="AP" title="Analytics Pros"/>
                     </Link>
 
 
@@ -101,29 +101,6 @@ class Header extends React.Component {
                                                value={this.state.searchText}/>
                                 </DropdownMenu>
                             </Dropdown>
-                        </li>
-                        <li className="list-inline-item">
-                            <Dropdown
-                                className="quick-menu"
-                                isOpen={this.state.langSwitcher}
-                                toggle={this.onLangSwitcherSelect.bind(this)}>
-
-                                <DropdownToggle
-                                    className="d-inline-block"
-                                    tag="span"
-                                    data-toggle="dropdown">
-                                    <div className="d-flex align-items-center pointer">
-                                        <i className={`flag flag-32 flag-${locale.icon}`}/>
-                                        <h4 className="mb-0 ml-1 d-none d-md-block">{locale.name}</h4>
-                                    </div>
-                                </DropdownToggle>
-
-                                <DropdownMenu right className="w-50">
-                                    <LanguageSwitcher switchLanguage={this.props.switchLanguage}/>
-                                </DropdownMenu>
-                            </Dropdown>
-
-
                         </li>
                         <li className="list-inline-item app-tour">
                             <Dropdown

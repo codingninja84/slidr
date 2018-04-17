@@ -12,29 +12,29 @@ export const data = [
 
 export const data1 = [
     {name: 'Let A', uv: 40, pv: 24, amt: 20},
-    {name: 'Let B', uv: 30, pv: 13, amt: 21},
-    {name: 'Let C', uv: 60, pv: 98, amt: 29},
-    {name: 'Let D', uv: 27, pv: 39, amt: 20},
+    {name: 'Let B', uv: 30, pv: 25, amt: 21},
+    {name: 'Let C', uv: 60, pv: 30, amt: 29},
+    {name: 'Let D', uv: 27, pv: 65, amt: 20},
     {name: 'Let E', uv: 78, pv: 48, amt: 28},
     {name: 'Let F', uv: 23, pv: 38, amt: 20},
     {name: 'Let G', uv: 56, pv: 43, amt: 20},
 ];
 export const data2 = [
-    {name: 'Let A', uv: 40, pv: 24, amt: 20},
-    {name: 'Let B', uv: 10, pv: 13, amt: 21},
-    {name: 'Let C', uv: 60, pv: 98, amt: 29},
-    {name: 'Let D', uv: 27, pv: 15, amt: 20},
-    {name: 'Let E', uv: 56, pv: 45, amt: 28},
-    {name: 'Let F', uv: 23, pv: 56, amt: 20},
-    {name: 'Let G', uv: 56, pv: 43, amt: 20},
+    {name: 'Sun', cw: 0, pv: 0, amt: 20},
+    {name: 'Mon', cw: 5, pv: 3, amt: 21},
+    {name: 'Tue', cw: 6, pv: 4, amt: 29},
+    {name: 'Wed', cw: 3, pv: 3, amt: 20},
+    {name: 'Thu', cw: 5, pv: 6, amt: 28},
+    {name: 'Fri', cw: 2, pv: 3, amt: 20},
+    {name: 'Sat', cw: 0, pv: 0, amt: 20},
 ];
 export const radarChartData = [
-    {subject: 'Math', A: 120, B: 110, fullMark: 150},
-    {subject: 'Chinese', A: 98, B: 130, fullMark: 150},
-    {subject: 'English', A: 86, B: 130, fullMark: 150},
-    {subject: 'Geography', A: 99, B: 100, fullMark: 150},
-    {subject: 'Physics', A: 85, B: 90, fullMark: 150},
-    {subject: 'History', A: 65, B: 85, fullMark: 150},
+    {subject: 'QA', A: 120, B: 110, fullMark: 150},
+    {subject: 'Training', A: 98, B: 130, fullMark: 150},
+    {subject: 'Audits', A: 86, B: 130, fullMark: 150},
+    {subject: 'Specs', A: 99, B: 100, fullMark: 150},
+    {subject: 'Config', A: 85, B: 90, fullMark: 150},
+    {subject: 'Internal', A: 65, B: 85, fullMark: 150},
 ];
 export const chartData = [
     {name: 'J', amt: 1400},
@@ -73,13 +73,17 @@ export const chartDataWithoutAxis = [
 ];
 
 export const pieChartData = [
-    {name: 'J', amt: 24},
-    {name: 'F', amt: 18},
-    {name: 'M', amt: 22},
-    {name: 'A', amt: 17},
-    {name: 'M', amt: 25},
-    {name: 'J', amt: 12},
-    {name: 'J', amt: 21},
+    {name: 'Jan', amt: 24},
+    {name: 'Feb', amt: 18},
+    {name: 'Mar', amt: 22},
+    {name: 'April', amt: 17},
+    {name: 'May', amt: 25},
+    {name: 'Jun', amt: 12},
+    {name: 'Aug', amt: 21},
+    {name: 'Sept', amt: 21},
+    {name: 'Oct', amt: 21},
+    {name: 'Nov', amt: 21},
+    {name: 'Dec', amt: 21},
 ];
 export const lineChartData = [
     {name: 'J', amt: 24244},

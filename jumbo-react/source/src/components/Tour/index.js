@@ -18,7 +18,7 @@ class Tour extends React.PureComponent {
             running: false,
             steps: [
                 {
-                    text: 'Shows logged-in user\'s info with dropdown context menu.',
+                    text: 'Shows logged-in AP user info with dropdown context menu.',
                     textAlign: 'center',
                     selector: '.app-container .app-sidebar .user-profile',
                     position: 'right',
@@ -26,14 +26,14 @@ class Tour extends React.PureComponent {
                 },
                 {
                     title: 'Notifications',
-                    text: 'Keep yourself notified with the upcoming alerts and announcements',
+                    text: 'DAs and TS team members will get notified of upcoming alerts and announcements',
                     textAlign: 'center',
                     selector: '.app-container .app-main-container .app-main-header .app-tour',
                     position: 'top',
                     isFixed: true,
                 },
                 {
-                    title: 'Messages',
+                    title: 'We can link our Gmail accounts here if we need to',
                     text: 'Check your recent messages from your connections.',
                     textAlign: 'center',
                     selector: '.app-container .app-main-container .app-main-header .mail-tour',
@@ -112,4 +112,3 @@ class Tour extends React.PureComponent {
 }
 
 export default Tour;
-

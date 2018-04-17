@@ -221,5 +221,35 @@ class TextFields extends React.Component {
     }
 }
 
+class SlideName extends React.Component {
+    state = {
+        name: 'Cool Deck Name',
+    };
 
-export default TextFields;
+    handleChange = name => event => {
+        this.setState({
+            [name]: event.target.value,
+        });
+    };
+
+    render() {
+
+        return (
+            <form className="row" noValidate autoComplete="off">
+                <div className="col-md-6 col-12">
+                    <TextField
+                        id="name"
+                        label="Name"
+                        value={this.state.name}
+                        onChange={this.handleChange('name')}
+                        margin="normal"
+                        fullWidth
+                    />
+                </div>
+            </form>
+        );
+    }
+}
+
+
+export default SlideName;

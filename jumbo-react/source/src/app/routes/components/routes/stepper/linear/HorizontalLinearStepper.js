@@ -4,17 +4,17 @@ import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 
 function getSteps() {
-    return ['Select campaign settings', 'Create an ad group', 'Create an ad'];
+    return ['Give it a name', 'Assign to client', 'Choose template type'];
 }
 
 function getStepContent(step) {
     switch (step) {
         case 0:
-            return 'Select campaign settings...';
+            return 'Begin Here';
         case 1:
-            return 'What is an ad group anyways?';
+            return 'Select from the list';
         case 2:
-            return 'This is the bit I really care about!';
+            return 'What are we making?';
         default:
             return 'Unknown step';
     }

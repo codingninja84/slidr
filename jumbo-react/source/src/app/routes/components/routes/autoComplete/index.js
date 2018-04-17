@@ -11,22 +11,23 @@ const AutoComplete = ({match}) => {
         <div className="animated slideInUpTiny animation-duration-3">
             <ContainerHeader title={<IntlMessages id="sidebar.components.autocomplete"/>} match={match}/>
             <div className="row mb-lg-4">
-                <CardBox styleName="col-lg-6" childrenStyle="d-flex justify-content-center"
-                         heading={<IntlMessages id="component.autocomplete.reactSelect"/>}>
-                    <IntegrationReactSelect/>
+                <CardBox styleName="col-lg-12" childrenStyle="d-flex justify-content-center"
+                         heading="Content Coming Soon">
+                    {/* <IntegrationReactSelect/> */}
+                    <span></span>
                 </CardBox>
-
+{/*
                 <CardBox styleName="col-lg-6" childrenStyle="d-flex justify-content-center"
                          heading={<IntlMessages id="component.autocomplete.reactAutosuggest"/>}>
                     <IntegrationAutosuggest/>
-                </CardBox>
+                </CardBox> */}
             </div>
-            <div className="row">
+            {/* <div className="row">
                 <CardBox styleName="col-lg-12" childrenStyle="d-flex justify-content-center"
                          heading={<IntlMessages id="component.autocomplete.downshift"/>}>
                     <IntegrationDownshift/>
                 </CardBox>
-            </div>
+            </div> */}
         </div>
     );
 };
